@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang=”en”>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ashley Aalto</title>
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="setInterval(changecolor,500)">
+
+<!-- Logo and name -->
+
+            <div class="intro">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" width="50%" alt="two lowercase a's arranged vertically. The a's have a black stroke and a white filling." title="Ashley Aalto: Home">
+                    </a>
+                </div>
+                <div>
+                    <h1 id="intro_h1">
+                        ASHLEY AALTO
+                    </h1>
+                </div>
+            </div>
+
+<!-- End of logo and name -->
+        
+<!-- The navigation menu -->
+
+            <div class="nav">
+                <ul id="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Portfolio</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+
+<!-- End of navigation menu -->
+
+<!--Content-->
+        <section>
+            <div class="row1">
+                <div class="about"> 
+                    <h1>ABOUT ME</h1>
+                    <p>I am a student at Humber College currently enrolled in the Multimedia Design and Development program.</p>
+                    <p>I am proficient in logo design, illustration, branding, poster design, typography, motion design, and web development.</p>
+                    <button onclick = "changeFontColor()" id = "colorchange" >Try me!</button>
+                                <script>
+                                    function changeFontColor () {
+                                        let button = document.getElementById ("colorchange");
+                                        let color = button.style.color;
+                                        if (color == "blue") {
+                                            button.style.color = 'magenta';
+                                            } else {
+                                            button.style.color = 'blue';
+                                    }
+                                    }
+                                </script>
+                </div>
+                <div>
+                <img src="images/nightmare.jpg" width="400px" alt="a girl dressed as a raggity anne doll sits on a blue and white checkered tile floor off to the left hand side of the image. The room is dark and an image of rabbits jumping over a rainbow in a starry sky is projected on the wall. On the right hand side of the image, two large round glowing white eyes peer through a small door. The unknown being sticks a long black finger through the door." title="A Liminal Nightmare, (2022, Digital)">
+                </div> 
+                <div>
+                    <img src="images/bull.jpg" width="400px" alt="A woman with blue hair and a black turtleneck pulls down her black sunglasses and peers over the rims. She shoots red lasers out of her eyes. Behind her is the phrase 'seeing through your bullshit'" title="Sight (2022, Digital)">
+                </div> 
+            </div>
+        </section> 
+
+        <section>
+            <div class="row2">
+                <div class="fun">
+                    <h1>Let's have some fun!</h1>
+                    <p id = "demo"></p>
+                     <button onclick = "adLib()" id = "adlib" >Try me!</button>
+                            <script>
+                                function adLib() {
+                                    let text;
+                                    let verb = prompt("Please enter a verb", "ex. run");
+                                    let noun1 = prompt("Please enter a noun", "ex. robot");
+                                    let noun2 = prompt("Please enter another noun", "ex. cabbage");
+                                    {
+                                        text = "When I woke up this morning, I found a " + noun1 + " in my " + noun2 + " and I couldn't stop " + verb + "!";
+                                    }    
+                                    document.getElementById("demo").innerHTML = text;
+                                    }
+                
+                            </script>
+                    <h1 id ="a">LEARNING TO CODE IS COOL</h1>
+                        <script>
+                            function changecolor (){
+                                var x=document.getElementById("a");
+                                if (x.style.color=="blue")
+                                x.style.color="red";
+                                else if(x.style.color=="red")
+                                x.style.color="green";
+                                else
+                                x.style.color="blue";
+                            }
+                        </script>
+                </div>
+                <div>
+                    <img src="images/water.jpg" width="400px" alt="a black and white image of a hand reaching out of water as another hand above pours water onto it." title="Help (2022, Digital)">
+                </div> 
+                <div>
+                    <img src="images/ghosts.jpg" width="400px" alt="Two sheet ghosts stand in a red room in front of a brick fire place. In front of them is a table with candles and a ouija board. They are staring down at the board." title="Making Contact (2021, Digital)">
+                </div> 
+            </div>
+        </section> 
+
+        <section>
+            <div class="row3">
+                <div class="social">
+                    <h1>BURIED TREASURE!</h1>
+                    <p>There's buried treasure behind one of the pictures. Hover your mouse over the picture to "dig"! Good luck!</p>
+                </div>
+                <div>
+                    <img src="images/dreams.jpg" width="400px" alt="Whole picture is done in red ink on a purple background. The image features 3 sheet ghosts in a line appearing to walk through a door. There is a naked torso of a woman floating on the left hand side of the image. A sphere sits at the top centre of the image. Leaves from a snake plant frame the bottom of the image, moreso in the bottom corners. The scene is taking place in a hallway made of a multiple checkerboard paterns laying over one another." title="In Dreams (2022, Digital)">
+                </div> 
+                <div>
+                    <img id="prize" src="images/honey.jpg" width="400px" alt="The phrase 'uhuh honey' sits on top of a background of honey combs. The lettering resembles the same consistency as honey and the font is cursive." title="Honey (2020, Digital)" onmouseover="hover(this);"/>
+                            <script>
+                                function hover(img)
+                                {
+                                    img.src = "images/shreklove.jpg"
+                                }
+                            </script>        
+                </div> 
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <p>Ashley Aalto &#169; 2023 All Rights Reserved</p>
+            </div>
+        </footer>
+
+<!--End of content-->
+    </body>
+</html>
