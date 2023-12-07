@@ -26,24 +26,24 @@
 <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
 
-     <style>
+    <style>
     .hotspot {
-      display: block;
-      width: 20px;
-      height: 20px;
-      border-radius: 10px;
-      border: none;
+      position: absolute;
+      font-size: 14px;
+      color: white;
       background-color: blue;
-      box-sizing: border-box;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
       pointer-events: none;
     }
 
     .hotspot[slot="hotspot-hand"] {
-      --min-hotspot-opacity: 0;
       background-color: red;
     }
 
-    .hotspot[slot="hotspot-foot"] {
+    .hotspot[slot="hotspot-foot"]:not([data-visible]) {
       background-color: transparent;
       border: 3px solid blue;
     }
@@ -64,22 +64,15 @@
 </head>
 <body>
 
-<model-viewer id="chair-demo" ar ar-modes="webxr" camera-controls touch-action="pan-y" src="./chair_1.gltf" poster="assets/chair_1.png" shadow-intensity="1" alt="A 3D model of a grey chair.">
-  <button class="hotspot" slot="hotspot-visor" data-position="0 1.75 0.35" data-normal="0 0 1">
-      <div>CHAIR!</div></button>
-  <button class="hotspot" slot="hotspot-hand" data-position="0 1.75 0.35" data-normal="0 0 1">
+<model-viewer id="chair-demo" ar ar-modes="webxr" camera-controls touch-action="pan-y" src="assets/chair_1.gltf" poster="assets/chair_1.png" shadow-intensity="1" alt="A 3D model of a grey chair.">
+  <button class="hotspot" slot="hotspot-visor" data-position="0 1.75 0.35" data-normal="0 0 1">Text 1</button>
+  <button class="hotspot" slot="hotspot-hand" data-position="-0.54 0.93 0.1" data-normal="-0.73 0.05 0.69">
     <div class="annotation">This hotspot disappears completely</div>
   </button>
-  <button class="hotspot" slot="hotspot-foot" data-position="0.16 0.1 0.17" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible"></button>
+  <button class="hotspot" slot="hotspot-foot" data-position="0.16 0.1 0.17" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible">Text 2</button>
+  <div class="annotation">This annotation is fixed in screen-space</div>
 </model-viewer>
 
-<model-viewer id="couch-demo" ar ar-modes="webxr" camera-controls touch-action="pan-y" src="assets/couch.gltf" poster="assets/couch.png" shadow-intensity="1" alt="A 3D model of an orange couch.">
-  <!-- Add hotspots for the couch model similarly -->
-</model-viewer>
-
-<model-viewer id="stool-demo" ar ar-modes="webxr" camera-controls touch-action="pan-y" src="assets/stool.gltf" poster="assets/stool.png" shadow-intensity="1" alt="A 3D model of a wooden stool.">
-  <!-- Add hotspots for the stool model similarly -->
-</model-viewer>
 
     <!-- <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> -->
    <!-- <model-viewer 
