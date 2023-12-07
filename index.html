@@ -48,7 +48,13 @@
           alt="a 3d model of a wooden stool"
         ></model-viewer>
 
-    <model-viewer src="assets/chair_1.glb" poster="assets/chair_1.png" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel">
+    <model-viewer src="assets/chair_1.glb" 
+        poster="assets/chair_1.png" 
+        shadow-intensity="1" 
+        ar 
+        camera-controls 
+        touch-action="pan-y" 
+        alt="A 3D model carousel">
   
   <button slot="ar-button" id="ar-button">
     View in your space
@@ -64,7 +70,7 @@
 
   <div class="slider">
     <div class="slides">
-      <button class="slide selected" onclick="switchSrc(this, 'Chair')" style="background-image: url('../../assets/ShopifyModels/Chair.webp');">
+      <button class="slide selected" onclick="switchSrc(this, 'Chair')" style="background-image: src=("assets/chair_1.png");">
 
       </button><button class="slide" onclick="switchSrc(this, 'Mixer')" style="background-image: url('../../assets/ShopifyModels/Mixer.webp');">
 
