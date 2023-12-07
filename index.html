@@ -26,6 +26,15 @@
 <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
     <!-- <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> -->
+    <model-viewer 
+        camera-controls 
+        touch-action="pan-y" 
+        camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) 
+        calc(0deg + env(window-scroll-y) * 180deg) 
+        calc(5m - env(window-scroll-y) * 10m)" 
+        src="../../shared-assets/models/Astronaut.glb" 
+        alt="A 3D model of an astronaut"
+        ></model-viewer>
     <model-viewer id="toggle-poster" src="assets/chair_1.gltf"
           camera-controls
           auto-rotate
