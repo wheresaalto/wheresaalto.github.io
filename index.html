@@ -46,16 +46,16 @@
     <model-viewer id="orbit-demo" interpolation-decay="200" src="assets/couch.gltf"
           camera-controls
           poster="assets/couch.png"
-          auto-rotate
-          ar
+          touch-action="pan-y" 
+          camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) calc(0deg + env(window-scroll-y) * 180deg) calc(5m - env(window-scroll-y) * 10m)" 
           ios-src="assets/couch.usdz"
           alt="a 3d model of an orange couch"
     ></model-viewer>
     <model-viewer id="orbit-demo" interpolation-decay="200" src="assets/stool.gltf"
           camera-controls
           poster="assets/stool.png"
-          auto-rotate
-          ar
+          touch-action="pan-y" 
+          camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) calc(0deg + env(window-scroll-y) * 180deg) calc(5m - env(window-scroll-y) * 10m)" 
           ios-src="assets/stool.usdz"
           alt="a 3d model of a wooden stool"
     ></model-viewer>
