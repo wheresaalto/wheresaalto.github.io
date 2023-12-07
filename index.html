@@ -35,7 +35,7 @@
         src="assets/chair_1.glb" 
         alt="A 3D model of a grey chair"
     ></model-viewer> -->
-    <model-viewer src="assets/chair_1.gltf"
+    <model-viewer id="orbit-demo" interpolation-decay="200" src="assets/chair_1.gltf"
           camera-controls
           touch-action="pan-y" 
         camera-orbit="calc(-1.5rad + env(window-scroll-y) * 4rad) 
@@ -44,6 +44,22 @@
           ios-src="assets/couch.usdz"
           alt="a 3d model of a grey chair"
     ></model-viewer>
+    <script>
+(() => {
+  const modelViewer = document.querySelector('#orbit-demo');
+  const orbitCycle = [
+    '45deg 55deg 4m',
+    '-60deg 110deg 2m',
+    modelViewer.cameraOrbit
+  ];
+
+  setInterval(() => {
+    const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
+    modelViewer.cameraOrbit =
+        orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
+  }, 3000);
+})();
+</script>
     <model-viewer src="assets/couch.gltf"
           camera-controls
           auto-rotate
