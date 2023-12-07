@@ -26,14 +26,22 @@
 <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
     <!-- <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> -->
-    <model-viewer src="assets/chair_1.gltf"
-          camera-controls
+    <model-viewer id="toggle-poster" src="assets/chair_1.gltf"
+        controls auto-rotate poster="assets/chair_1.png"></model-viewer>
+         <!-- camera-controls
           auto-rotate
           ar
           ios-src="assets/chair_1.usdz"
           alt="a 3d model of a grey chair"
-        poster="assets/chair_1.png"
-        ></model-viewer>
+        poster="assets/chair_1.png"-->
+        ></model-viewer> 
+            <script>
+            const posters = ['poster.png', 'poster2.png'];
+            let i = 0;
+            setInterval(() =>
+                document.querySelector('#toggle-poster').setAttribute('poster',
+                    `assets/${posters[i++ % 2]}`), 2000);
+            </script>
         <model-viewer src="assets/couch.gltf"
           camera-controls
           auto-rotate
