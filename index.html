@@ -50,12 +50,17 @@
       camera-controls
       ios-src="assets/couch.usdz"
       alt="a 3d model of a grey chair"
-     <button class="hotspot" slot="hotspot-visor"  data-position="0 1.75 0.35" data-normal="0 0 1">Text 1</button>
-        <button class="hotspot" slot="hotspot-hand" data-position="-0.54 0.93 0.1" data-normal="-0.73 0.05 0.69">
-                <div class="annotation">This hotspot disappears completely</div>
-        </button>
-        <button class="hotspot" slot="hotspot-foot" data-position="0.16 0.1 0.17" data-normal="-0.07 0.97 0.23" data-visibility-attribute="visible">Text 2</button>
-                <div class="annotation">This annotation is fixed in screen-space</div>
+     <button class="Hotspot" slot="hotspot-1" data-position="0.06579832053220241m 0.16412543688439224m -0.013731247538456504m" data-normal="-0.9473174140204408m 0.26031117240857166m 0.18662210644213545m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Tweed Fabric</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.04913485005292964m 0.052359575254983276m 0.05944358561734932m" data-normal="-0.06368513804792272m 0.29520799338780024m 0.9533081578544084m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">oak legs</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
 ></model-viewer>
 <model-viewer id="couch-demo" interpolation-decay="200" src="assets/couch.gltf"
       poster="assets/couch.png"
