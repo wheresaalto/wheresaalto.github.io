@@ -72,7 +72,7 @@
       setInterval(() => {
         const currentOrbitIndex = orbitCycle.indexOf(modelViewer.cameraOrbit);
         modelViewer.cameraOrbit =
-            orbitCycle[(currentOrbitIndex + 3) % orbitCycle.length];
+            orbitCycle[(currentOrbitIndex + 1) % orbitCycle.length];
       }, 3000);
     })();
     </script>
