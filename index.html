@@ -57,6 +57,13 @@
           ios-src="assets/stool.usdz"
           alt="a 3d model of a wooden stool"
         ></model-viewer>
+    <script>
+    const posters = ['chair_1.png', 'chair_2.png'];
+    let i = 0;
+    setInterval(() =>
+        document.querySelector('#toggle-poster').setAttribute('poster',
+            `assets/${posters[i++ % 2]}`), 2000);
+    </script>
 
 
 
