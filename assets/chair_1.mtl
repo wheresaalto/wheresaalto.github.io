@@ -1,0 +1,36 @@
+newmtl hard_plastic_material5
+illum 7
+Kd 0.090196 0.090196 0.090196
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 1 1 1
+Pm 0
+adobe_translucence 0
+Pr 0.28
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+
+newmtl Orange Nylon Webbing_material
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.5
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 1 1 1
+map_Pm chair_1/Orange Nylon Webbing_material_metallic.png
+adobe_translucence 0
+map_Pr chair_1/Orange Nylon Webbing_material_roughness.png
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd chair_1/Orange Nylon Webbing_material_base_color.png
+norm chair_1/Orange Nylon Webbing_material_normal.png
+disp chair_1/Orange Nylon Webbing_material_height.png

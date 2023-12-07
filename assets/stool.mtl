@@ -1,0 +1,377 @@
+newmtl material0000
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0000_base_color.png
+
+newmtl material0001
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0001_base_color.png
+
+newmtl material0002
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0002_base_color.png
+
+newmtl material0003
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0003_base_color.png
+
+newmtl material0004
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0004_base_color.png
+
+newmtl material0005
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0005_base_color.png
+
+newmtl material0006
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0006_base_color.png
+
+newmtl material0007
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0007_base_color.png
+
+newmtl material0008
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0008_base_color.png
+
+newmtl material0009
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0009_base_color.png
+
+newmtl material0010
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0010_base_color.png
+
+newmtl material0011
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0011_base_color.png
+
+newmtl material0012
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0012_base_color.png
+
+newmtl material0013
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0013_base_color.png
+
+newmtl material0014
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0014_base_color.png
+
+newmtl material0015
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0015_base_color.png
+
+newmtl material0016
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0016_base_color.png
+
+newmtl material0017
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0017_base_color.png
+
+newmtl material0018
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0018_base_color.png
+
+newmtl material0019
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0019_base_color.png
+
+newmtl material0020
+illum 7
+Kd 0.735357 0.735357 0.735357
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+Pm 0
+adobe_translucence 0
+Pr 0.6
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd stool/material0020_base_color.png
