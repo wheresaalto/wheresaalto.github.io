@@ -44,7 +44,22 @@
           ios-src="assets/couch.usdz"
           alt="a 3d model of a grey chair"
     ></model-viewer>
-    <script>
+    <model-viewer id="orbit-demo" interpolation-decay="200" src="assets/couch.gltf"
+          camera-controls
+          auto-rotate
+          ar
+          ios-src="assets/couch.usdz"
+          alt="a 3d model of an orange couch"
+    ></model-viewer>
+    <model-viewer id="orbit-demo" interpolation-decay="200" src="assets/stool.gltf"
+          camera-controls
+          auto-rotate
+          ar
+          ios-src="assets/stool.usdz"
+          alt="a 3d model of a wooden stool"
+    ></model-viewer>
+
+        <script>
 (() => {
   const modelViewer = document.querySelector('#orbit-demo');
   const orbitCycle = [
@@ -60,20 +75,6 @@
   }, 3000);
 })();
 </script>
-    <model-viewer src="assets/couch.gltf"
-          camera-controls
-          auto-rotate
-          ar
-          ios-src="assets/couch.usdz"
-          alt="a 3d model of an orange couch"
-    ></model-viewer>
-    <model-viewer src="assets/stool.gltf"
-          camera-controls
-          auto-rotate
-          ar
-          ios-src="assets/stool.usdz"
-          alt="a 3d model of a wooden stool"
-    ></model-viewer>
 
 
 
